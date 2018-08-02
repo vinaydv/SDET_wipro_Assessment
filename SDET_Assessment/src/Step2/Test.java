@@ -12,6 +12,9 @@ public class Test {
 		 
 		 
 		 Qp.parseQuery(wholeString);
+		 
+		 
+		 System.out.println(Qp.getFile());
 	}
 
 }

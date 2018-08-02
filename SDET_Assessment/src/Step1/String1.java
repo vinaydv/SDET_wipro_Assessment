@@ -1,5 +1,9 @@
 package Step1;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class String1 {
 
 	public static void main(String[] args) {
@@ -7,9 +11,12 @@ public class String1 {
 		
 		  String wholeString = "select * from ipl.csv where season > 2014 and city = 'Bangalore'";
 		   
-		    String[] clue = wholeString.split("where");
-			System.out.println("Base section output is " + clue[0].trim());
-			//System.out.println("Base section output is" + clue[1].trim()); 
+		    
+			
+			List<String> myList = new ArrayList<String>(Arrays.asList(wholeString.split(" ")));
+			System.out.println(myList.get(3)); 
+			
+			
 		}
 
 	}

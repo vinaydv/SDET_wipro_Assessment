@@ -1,8 +1,14 @@
 package Step2;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.StringTokenizer;
 
 public class QueryParameter {
+	
+	
+
 	
 	private static String queryString;
 	private static String file;
@@ -31,7 +37,20 @@ public class QueryParameter {
 	
 	public void setFile(){
 		
+		
+		List<String> myList = new ArrayList<String>(Arrays.asList(queryString.split(" ")));
+		
+		this.file = myList.get(3);
+		
 	}
+	
+	public String getFile(){
+		return file;
+		
+	}
+	
+	
+	
 	
 	
 	

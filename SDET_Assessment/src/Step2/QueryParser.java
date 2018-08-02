@@ -7,7 +7,11 @@ public class QueryParser extends QueryParameter{
 		QueryParameter obj = null;
 		
 		setqueryString(queryString);
-		getqueryString();
+		setFile();
+		
+		
+		
+		
 		
 		
 		return obj;
