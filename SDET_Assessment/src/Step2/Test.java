@@ -11,6 +11,7 @@ public class Test {
 		 QueryParser Qp = new QueryParser();
 		 
 		 
+		 
 		 Qp.parseQuery(wholeString);
 		 
 		 
