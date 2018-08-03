@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 
 public class QueryParameter {
 	
-	Restrictions restrict = new Restrictions();
+	
 
 	
 	private static String queryString;

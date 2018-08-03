@@ -4,13 +4,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Restrictions extends QueryParameter {
+public class Restrictions  {
 	
 	private static List<String> propertyName;
 	private static String propertyValue;
 	private static String condition;
 	
-	public void setPropertyName(String queryString){
+	/*public void setPropertyName(String queryString){
 		 String[] clue = queryString.split("where");
 			
 		String[] subclue = clue[1].split("and");
@@ -22,7 +22,7 @@ public class Restrictions extends QueryParameter {
 			
 		}
 		
-	}
+	}*/
 	
 	
 
