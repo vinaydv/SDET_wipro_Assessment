@@ -23,6 +23,8 @@ public class QueryParameter {
 	private static String aggregatefields;
 	
 	
+	
+	
 	public void setqueryString(String wholeString ){
 	
 		this.queryString = wholeString;
@@ -47,6 +49,15 @@ public class QueryParameter {
 	public String getFile(){
 		return file;
 		
+	}
+	
+	public void setBasequery(){
+		String[] clue = queryString.split("where");
+		this.baseQuery = clue[0].trim();
+	}
+	
+	public String getbasequery(){
+		return baseQuery;
 	}
 	
 	

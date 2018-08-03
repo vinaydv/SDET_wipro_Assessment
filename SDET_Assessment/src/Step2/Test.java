@@ -15,6 +15,7 @@ public class Test {
 		 
 		 
 		 System.out.println(Qp.getFile());
+		 System.out.println(Qp.getbasequery());
 	}
 
 }
